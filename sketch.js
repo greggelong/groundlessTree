@@ -24,7 +24,7 @@ function draw() {
   //resetMatrix()
   translate(width / 2, height - height / 20);
   background(0);
-  branch(600, 7, frameCount % 360);
+  branch(400, 7, frameCount % 360);
 }
 
 function branch1(len, d, theta) {
